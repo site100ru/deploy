@@ -15,5 +15,5 @@ jobs:
           username: ${{ secrets.REGRU_USER }}
           key: ${{ secrets.REGRU_KEY }}
           script: |
-            cd /www/site100.ru/projects/deploy
+            cd /www/site100.ru/projects/deploy/
             git pull
